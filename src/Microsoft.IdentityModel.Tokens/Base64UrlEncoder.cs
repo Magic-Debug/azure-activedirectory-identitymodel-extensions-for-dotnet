@@ -8,7 +8,7 @@ using Microsoft.IdentityModel.Logging;
 namespace Microsoft.IdentityModel.Tokens
 {
     /// <summary>
-    /// Encodes and Decodes strings as Base64Url encoding.
+    ///增加了URL 编码 的效果，便于在 url 中传输 token
     /// </summary>
     public static class Base64UrlEncoder
     {

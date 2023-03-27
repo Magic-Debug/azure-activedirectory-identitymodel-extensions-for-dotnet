@@ -8,7 +8,7 @@ using System.Security.Claims;
 namespace Microsoft.IdentityModel.Tokens
 {
     /// <summary>
-    /// Base class for security token.
+    /// JWT 由【header.payload.signature】三部分组成,使用私钥生成签名（signature），私钥只有 ids4 持有，用于颁发 JWT格式的 token
     /// </summary>
     public abstract class SecurityToken
     {
